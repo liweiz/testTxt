@@ -1,0 +1,13 @@
+languageCode = "en-us"
+
+baseurl = "https://www.example.com/"
+title = "坐井观天"
+author = "我"
+canonifyurls = true
+languagecode = "cn"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "坐井观天"
