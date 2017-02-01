@@ -13,7 +13,7 @@
           {{ end }}
         </ul>
         <div id=date>
-          <time>{{ .Date.Format (.Site.Params.dateform | default "January 2006") }}</time>
+          <time>{{ .Date.Format "2006年01月02日" }}</time>
         </div>
       </li>
     {{ end }}

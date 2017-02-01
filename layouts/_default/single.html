@@ -4,7 +4,7 @@
   <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
 
   <div id=sub-header>
-    {{ .Date.Format (.Site.Params.dateform | default "January 2006") }} · {{ .ReadingTime }} minute read
+    {{ .Date.Format "2006年01月02日" }} · {{ .ReadingTime }}分钟阅读
   </div>
 
   <div class="entry-content">
@@ -22,5 +22,3 @@
 </section>
 
 {{ partial "footer.html" . }}
-
-
